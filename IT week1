@@ -1,16 +1,27 @@
-It workShop
-____________
+                         Week 1
+Basic Unix commands
 
-->Introduction  to computing tools
 
-1.LInux commands(Basics)
-  -FIle operrations
-  -process
 
-2.Documentation  
-  -Latex: created to used for documentation purpose. 
+Introduction to Unix:
 
-3.Web applications:
+
+An OS providing both command line interface (CLI) and graphical user interface (GUI)
+based interaction integrated by Dennis Ritchie, Douglas Mcllroy, Joe Ossanna Brian
+Kernighan, and Ken Thompson at Bell laboratory in 1970 called a multi-tasking operating
+system permitting two or more users to simultaneously operate on the operating system
+and offers commands for the users for interacting with the application from command line
+
+interface, such as sudo command, chmod command, su command, mv command, rm
+
+command, vi command, cat command, rmdir command, mkdir command, clear command,
+
+and ls comma nd, which can be used to implement complex tasks.
+Hence, it's recommended by professionals who operate with servers; it's also recommended
+to learn how the command-line-based operating system works. Many large and complex
+applications that utilize Unix to execute because of its aspect to handle the processes easily.
+It's a bit faster and provides a nice user experience when compared with the Windows
+operating system.
   -
 
 user@jay:~$ ls
@@ -24,19 +35,30 @@ user@jay:~$ ls
  B.java        maxhp.c     Public
  cirquell.c    minheap.c   rec.java
  Desktop       minhp.c     sh.java
+ 
+ 
+ 
 user@jay:~$ who
 user     tty2         2024-03-21 14:07 (tty2)
+
+
 user@jay:~$ pwd
 /home/user
+
 user@jay:~$ cd Downloads
-user@jay:~/Downloads$ cd dsa1.c
-bash: cd: dsa1.c: No such file or directory
+
+user@jay:~/Downloads$
+
+
 user@jay:~/Downloads$ pwd
 /home/user/Downloads
+
 user@jay:~/Downloads$ cd..
-cd..: command not found
+
 user@jay:~/Downloads$ cd ..
+
 user@jay:~$ mkdir dir1
+
 user@jay:~$ pwd
 /home/user
 user@jay:~$ cd dir1
@@ -146,7 +168,9 @@ Su Mo Tu We Th Fr Sa
 27 28 29              
                       
 user@jay:~/dir1$ ls
+
 user@jay:~/dir1$ cd ..
+
 user@jay:~$ ls
  3a.java       dir1        minhp.c                sh.java
  A.java        Documents   mul.java               snap
@@ -158,8 +182,10 @@ user@jay:~$ ls
  B.java        main.java   productioncheck.java   Videos
  cirquell.c    maxhp.c     Public
  Desktop       minheap.c   rec.java
+ 
 user@jay:~$ mv dsa1.c Documents
 user@jay:~$ 
+
 user@jay:~$ ls
  3a.java       dir1        mul.java               snap
  A.java        Documents   Music                  sqr.java
@@ -172,7 +198,10 @@ user@jay:~$ ls
  cirquell.c    minheap.c   rec.java
  Desktop       minhp.c     sh.java
 user@jay:~$ cd Documents
+
+
 user@jay:~/Documents$ ls
+
 '5th unit awt,swing,File io ,DB.pdf'   Income.pdf
  ani.c                                 javanotes
  CSS                                   jays.pdf
@@ -184,6 +213,8 @@ user@jay:~/Documents$ ls
  dsa1.c                                Self
  DSA_by_Reema_Thareja_Text_Book.pdf   'x-xi-xii weeks.pdf'
  E1-S1.pdf
+ 
+ 
 user@jay:~/Documents$ pwd
 /home/user/Documents
 user@jay:~/Documents$ cd..
